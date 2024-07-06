@@ -1,0 +1,100 @@
+
+.contenedor {
+    display: grid;
+    grid-template-columns: 1fr auto; /* Dos columnas: una para item1 y item2, otra para item3 */
+    grid-template-rows: auto auto; /* Dos filas */
+    gap: 1cm; /* Establece una separación de 1 cm entre las columnas y filas */
+    padding: 0.5cm;
+}
+   
+.item1 {
+    grid-column: 1 / 2; /* Primera columna */
+    grid-row: 1 / 2; /* Primera fila */
+    width: 600px;
+    height: 100px;
+    top: -85px;
+    left: -300px;
+    gap: 0px;
+    opacity: 0px;
+    background: #FFFFFF;
+    border: 0.4px solid #22222280
+}
+
+.item2 {
+    grid-column: 1 / 2; /* Primera columna */
+    grid-row: 2 / 3; /* Segunda fila */
+    display: grid;
+    grid-template-rows: auto 1fr; 
+    justify-items: center; /* Centrar horizontalmente los elementos */
+    align-items: center;   /* Centrar verticalmente los elementos */
+    width: 600px;
+    height: 720px;
+    border: 0.4px solid #22222280;
+}
+
+#imagen3 {
+    width: 488px;
+    height: 488px;
+    top: 342px;
+    left: 165px;
+    gap: 0px;
+    opacity: 0px;
+    grid-row: 2; /* Coloca imagen3 en la segunda fila */
+}
+
+#imagenr {
+    width: 600px;
+    height: 67px;
+    top: 255px;
+    left: 109px;
+    gap: 0px;
+    opacity: 0px;
+    grid-row: 1; 
+    justify-self: start; /* Alinea imagenr al inicio del contenedor */
+}
+
+#texto {
+    width: 264px;
+    height: 170px;
+    top: 700px;
+    left: 164px;
+    gap: 0px;
+    opacity: 0px;
+    justify-self: start; 
+    margin-left: 0.5cm; /* Despega el texto medio centímetro de la izquierda */
+    padding: 0.5cm;        
+    box-sizing: border-box;
+    gap: 0.5cm;            /* Añade espacio entre los elementos dentro de la cuadrícula */
+}
+
+.item3 {
+    grid-column: 2 / 3; /* Segunda columna */
+    grid-row: 1 / 3; /* Ocupar ambas filas */
+    width: 284px;
+    height: 175px;
+    top: 135px;
+    left: 845px;
+    gap: 0px;
+    opacity: 0px;
+}
+
+
+
+.item3 {
+    width: 284px;
+    height: 175px;
+    top: 135px;
+    left: 845px;
+    gap: 0px;
+    opacity: 0px;
+}
+
+#referencia {
+    width: 284px;
+    height: 175px;
+    top: 135px;
+    left: 845px;
+    gap: 0px;
+    opacity: 0px;
+}
+
